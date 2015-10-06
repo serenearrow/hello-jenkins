@@ -9,5 +9,5 @@ node_js:
   - "0.6"
   - "iojs"
 before_script:
-  - npm install -g gulp
+  - npm install -g gulp gulp-mocha gulp-util
 script: gulp mocha watch-mocha
